@@ -1,0 +1,82 @@
+<li><a href="http://www.kubsu.ru/">Абсолютная ссылка на главную страницу</a></li>
+                          <li><a href="https://www.kubsu.ru/">Абсолютная ссылка в протоколе HTTPS</a></li>
+                          
+                           <li class="list-group-item">
+                        <a href="http://kubsu.ru">
+                            <img src="https://cvettorg.ru/upload/resize_cache/webp/iblock/313/313d3d6abfb11184fabacca71e685e42.webp" alt="Цветок" class="img-fluid" />
+                        </a>
+                    </li>
+                          <li><a href="#123">Ссылка на фрагмент текущей страницы</a></li>
+                          <li><a href="https://www.kubsu.ru?a=123&b=23&c=12">Ссылка с тремя параметрами URL</a>
+                          </li>
+                          <li><a href="https://www.kubsu.ru/?id=1010123124">Ссылка с параметром id в URL</a></li>
+                          
+                          <li><a href="http://www.kubsu.ru/university#zone-content-wrapper">Ссылка с другого
+                                  сайта</a>
+                          </li>
+                          <li><a href="#">Ссылка с пустым href</a></li>
+                          <li><a>Ссылка без href</a></li>
+                          <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)_#History" rel="nofollow">Запрещенная ссылка для поисковиков</a></li>
+                          <li><a href="https://s123123:123123@kubsu.ru/user">Ссылка на файл на сервере FTP с
+                                  авторизацией</a>
+                          </li>
+                          <li><a href="http://example.com" rel="noindex" title="Запрещенная для индексации поисковиками">Запрещенная для индексации поисковиками</a></li>
+                      </ul>
+                      
+                  </div>
+              </div>
+                            <div>
+                  <form id="form" class="form" action="index.html" method="POST">
+                      <label for="fullName">ФИО:</label>
+                      <input type="text" id="fullName" name="fullName" required
+                          pattern="^[А-ЯЁ][а-яё]+\s[А-ЯЁ][а-яё]+\s[А-ЯЁ][а-яё]+$"
+                          title="Введите ФИО в формате: Фамилия Имя Отчество" placeholder="Иванов Иван Иванович">
+                      Телефон:<br />
+                      <input name="field-phone" value="+71231231231" type="tel" pattern="\+7\d{10}" required />
+                      </label><br />
+                      <label>
+                          Email:<br />
+                          <input name="field-email" value="test@example.com" type="email" required />
+                      </label><br />
+                      Дата:<br />
+                      <input name="field-date" value="2013-12-12" type="date" />
+                      </label><br />
+                      Пол:<br />
+                      <label><input type="radio" checked="checked" name="radio-group-1" value="Мужской" />
+                          Мужской</label>
+                      <label><input type="radio" name="radio-group-1" value="Женский" /> Женский</label><br />
+                      <label>
+                          Список (listbox с множественным выбором):<br />
+                          <select name="field-name-4[]" multiple="multiple">
+                              <option value="Pascal">Pascal</option>
+                              <option value="C" selected="selected">C</option>
+                              <option value="C++" selected="selected">C++</option>
+                              <option value="JavaScript" selected="selected">JavaScript</option>
+                              <option value="PHP" selected="selected">PHP</option>
+                              <option value="Python" selected="selected">Python</option>
+                              <option value="Java" selected="selected">Java</option>
+                              <option value="Haskell" selected="selected">Haskell</option>
+                              <option value="Clojure" selected="selected">Clojure</option>
+                              <option value="Prolog" selected="selected">Prolog</option>
+                              <option value="Scala" selected="selected">Scala</option>
+                          </select>
+                      </label><br />
+                      <label>
+                          Биография:<br />
+                          <textarea name="field-name-2">Расскажите о себе</textarea>
+                      </label><br />
+                      С контрактом ознакомлен:<br />
+                      <label><input type="checkbox" checked="checked" name="check-1" /> Ознакомлен</label><br />
+                      <input type="submit" value="Отправить" />
+                  </form>
+              </div>
+          </div>
+      </div>
+  </body>
+</main>
+<br>
+<footer>(C) Вячеслав Аксютенко </footer> <br>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
